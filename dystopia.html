@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewpoint" content="width=device-width, initial-scale=1">
+		<title>Portal Escape</title>
+		<link rel="stylesheet" href="stylish.css">
+	</head>
+	<body>
+		<div class="screen">
+			<div class="side_left">
+			<img src="ChamberLeft.png" class="stretch_image_size"></div>
+			<div class="center">
+				<div class="lid up">
+				<img src="ChamberTop.png" class="stretch_image_size"></div>
+				<div class="puzzle">
+					<div class="column 1">
+						<div class="pp a"><img src="A3.png" class="stretch_image_size" onclick="nextImage(this)" id="a"></div>
+						<div class="pp e"><img src="E2.png" class="stretch_image_size" onclick="nextImage2(this)" id="e"></div>
+						<div class="pp i"><img src="I3.png" class="stretch_image_size" onclick="nextImage3(this)" id="i"></div>
+						<div class="pp m"><img src="M2.png" class="stretch_image_size" onclick="nextImage4(this)" id="m"></div>
+					</div>
+					<div class="column 2">
+						<div class="pp b"><img src="B2.png" class="stretch_image_size" onclick="nextImage5(this)" id="b"></div>
+						<div class="pp f"><img src="F3.png" class="stretch_image_size" onclick="nextImage6(this)" id="f"></div>
+						<div class="pp j"><img src="J1.png" class="stretch_image_size" onclick="nextImage7(this)" id="j"></div>
+						<div class="pp n"><img src="N3.png" class="stretch_image_size" onclick="nextImage8(this)" id="n"></div>
+					</div>
+					<div class="column 3">
+						<div class="pp c"><img src="C3.png" class="stretch_image_size" onclick="nextImage9(this)" id="c"></div>
+						<div class="pp j"><img src="G1.png" class="stretch_image_size" onclick="nextImage10(this)" id="g"></div>
+						<div class="pp k"><img src="K2.png" class="stretch_image_size" onclick="nextImage11(this)" id="k"></div>
+						<div class="pp o"><img src="O3.png" class="stretch_image_size" onclick="nextImage12(this)" id="o"></div>
+					</div>
+					<div class="column 4">
+						<div class="pp d"><img src="D2.png" class="stretch_image_size" onclick="nextImage13(this)" id="d"></div>
+						<div class="pp h"><img src="H3.png" class="stretch_image_size" onclick="nextImage14(this)" id="h"></div>
+						<div class="pp l"><img src="L3.png" class="stretch_image_size" onclick="nextImage15(this)" id="l"></div>
+						<div class="pp p"><img src="P2.png" class="stretch_image_size" onclick="nextImage16(this)" id="p"></div>
+					</div>
+				</div>
+					<div class="lid down">
+						<img src="ChamberBottom1.png" class="stretch_image_size" onclick="nextImage17(this)">
+					</div>
+				</div>
+		<div class="side_right">
+			<img src="ChamberRight1.png" class="stretch_image_size" onclick="changeScreen()"></div>
+		</div>
+			<script src="scripture.js"></script>
+	</body>
+</html>
